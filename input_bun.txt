@@ -1,0 +1,105 @@
+start_classes
+class MyClassA {
+    bool flagA = true;
+    float numberA = 3.14;
+    const int constantA = -42;
+    float aA;
+    string methodA(char paramA){
+        int countA;
+        char characterA;
+        float calculationA = (5.0 + 5.0) - (5.0 * 5.0);
+        if (flagA == true){
+            float tempA = 5.0;
+        }
+    };
+} objectA;
+class MyClassB {
+    int countB = 10;
+    char letterB = 'x';
+    string textB = "hello";
+    float arrayB[20];
+    int methodB(int numB, float numB2){
+        int countC = 10;
+        while(!countC)
+        {
+            countB = countB + 4;
+            countC = countC - 1;
+        }
+        return(0);
+    };
+    string methodC(char paramB){
+        int countD;
+        char characterB;
+        arrayB[2] = 3.0;
+        float calculationB = (5.0 + 5.0) - (5.0 * 5.0);
+        for (int iB = 0; iB <= 3; iB = iB + 2) { 
+            bool responseB;
+        }
+        return(textB);
+    };
+} objectB;
+stop_classes
+
+start_global_variables
+bool booleanX = false;
+float floatX = 2.71;
+char charArrayX[3];
+int varnew=2;
+const int constantX = -123;
+stop_global_variables
+
+start_global_functions
+int functionX(int paramX, float paramY){
+    int countX = 15;
+    while(!countX)
+    {
+        objectB->countB = objectB->countB + 2;
+        countX = countX - 1;
+    }
+    return(42);
+}
+
+string functionY(char paramZ){
+    int countY;
+    char characterX;
+    float floatY = (4.0 + 6.0) - (7.0 * 8.0);
+    for (int iY = 1; iY <= 5; iY = iY + 1) { 
+        bool responseY;
+    }
+    return("world");
+}
+
+float functionZ(float paramW){
+    float resultZ = paramW * 2.0;
+    return (resultZ);
+}
+stop_global_functions
+
+start_main
+int main(){
+    const int arrayM[1000] = {2, objectB->countB};
+    for (int iM = 0; iM <= 4; iM = iM + 1) { 
+        bool responseM;
+    }
+    int countM = 20*5+varnew-functionX(2,0.5);
+    functionX(10, 5.0);
+    objectB->textB = "mama";
+    objectB->countB = 1;
+    float floatZ = 5.0 + 2.0 + 3.0;
+    char variabilaMea='a';
+    objectB->methodC(variabilaMea);
+    
+    string resultString = functionY('b');
+    float resultFloat = functionZ(4.0);
+    char variabila_mea;
+    string variabila_mea1;
+    bool variabila_mea2;
+    
+    Eval((1+2)==3);
+    Eval((true || false) && (true && false));
+    TypeOf(6.35);
+    TypeOf(true && false);
+
+    return(0);
+}
+stop_main
